@@ -1,3 +1,10 @@
+
+const express = require("express");
+const app = express();
+
+require('./routes/apiRoutes')(app);
+require('./routes/htmlRoutes')(app);
+
 let noteForm;
 let noteTitle;
 let noteText;
@@ -190,5 +197,7 @@ if (window.location.pathname === '/notes') {
   clearBtn.addEventListener('click', renderActiveNote);
   noteForm.addEventListener('input', handleRenderBtns);
 }
+
+
 
 getAndRenderNotes();
