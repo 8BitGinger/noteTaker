@@ -56,6 +56,7 @@ const deleteNote = (id) =>
 const renderActiveNote = () => {
   hide(saveNoteBtn);
   hide(clearBtn);
+  show()
 
   if (activeNote.id) {
     show(newNoteBtn);
@@ -158,7 +159,7 @@ const renderNoteList = async (notes) => {
         'delete-note'
       );
       delBtnEl.addEventListener('click', handleNoteDelete);
-
+      show(delBtnEl);
       liEl.append(delBtnEl);
     }
 
@@ -191,8 +192,8 @@ if (window.location.pathname === '/notes') {
   noteForm.addEventListener('input', handleRenderBtns);
 }
 
-const li = noteBox;
 
-notebox.addEventListener('click', )
+
+
 
 getAndRenderNotes();
