@@ -191,4 +191,8 @@ if (window.location.pathname === '/notes') {
   noteForm.addEventListener('input', handleRenderBtns);
 }
 
+const li = noteBox;
+
+notebox.addEventListener('click', )
+
 getAndRenderNotes();
