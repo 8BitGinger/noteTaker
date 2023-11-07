@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-# Note Taker ♾
+# Note Taker 📝
 
 ## Description
 A simple app designed to Take, Save, and Delete notes using Express.js on the backend
@@ -24,11 +24,11 @@ A simple app designed to Take, Save, and Delete notes using Express.js on the ba
 
 <a id="usage"></a>
 ## Usage
-Go to the Deployed Link in the Links
+Go to the Deployed Link in the Links Section #7 in Table of Contents
 
 <a id="installation"></a>
 ```
-HEROKU LINK HERE
+https://nodenotes-js-8e31ec34cd5f.herokuapp.com/
 ```
 
 ---
@@ -47,7 +47,7 @@ N/A
 
 <a id="license"></a>
 ## License
-[MIT](url)
+[MIT](https://opensource.org/licenses/MIT)
 
 
 <a id="tests"></a>
@@ -60,7 +60,7 @@ None
 ### Repo Link:
  https://github.com/8BitGinger/noteTaker
 ### Deployed Link:
-HEROKU LINK HERE
+https://nodenotes-js-8e31ec34cd5f.herokuapp.com/
 ### Student Portfolio:
 https://8bitginger.github.io/studentPortfolio/
 
