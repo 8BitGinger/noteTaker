@@ -1,3 +1,7 @@
+* {
+  font-family: ;
+}
+
 html,
 body {
   height: 100%;
@@ -78,3 +82,68 @@ body {
 }
 
 
+.card {
+  background-image: url(../images/cork.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.list-group-item {
+  background-color: rgba(246, 247, 183, 0.923);
+  color: dodgerblue;
+  border-radius: 8px;
+  margin: 5px;
+  font-size: larger;
+
+}
+
+.note-textarea, .note-title {
+  background-color: rgba(246, 247, 183, 0.99);
+ padding: 10px;
+
+}
+
+.note-title {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom: 1px solid rgba(155, 155, 155, 0.466);
+  padding-bottom: 10px;
+}
+
+.note-textarea {
+  height: 200px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+}
+
+.col-8 {
+
+  border-radius: top right 25px;
+}
+
+
+.container {
+  background-color: rgba(246, 247, 183, 0.923);
+  border-radius: 25px;
+}
+
+.backer {
+  background-image: url(../images/cork.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar-brand {
+  font-size: xx-large;
+}
+
+.navbar-brand:hover {
+scale: 1.1;
+}
+
+h1 {
+  padding: 10px;
+  border-bottom: 1px solid rgba(155, 155, 155, 0.466);
+
+}

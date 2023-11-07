@@ -40,8 +40,7 @@ N/A
 
 <a id="screenshot"></a>
 ## Screenshot
-![screenshot](./public/assets/images/noteTaker-Screenshot.png)
-![screenshot](./public/assets/images/noteTaker-Screenshot2.png)
+![screenshot](./public/assets/images/noteTaker-double-screenshot.png)
 
 ---
 

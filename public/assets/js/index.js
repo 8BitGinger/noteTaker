@@ -168,7 +168,11 @@ const renderNoteList = async (notes) => {
     }
 
     return liEl;
+    const pushPin = document.createElement('img');
+    pushPin.classList.add('pushPin');
+    pushPin.append(delBtnEl);
   };
+
 
   if (jsonNotes.length === 0) {
     noteListItems.push(createLi('No saved Notes', false));
