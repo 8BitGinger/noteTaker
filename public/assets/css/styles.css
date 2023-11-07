@@ -1,5 +1,5 @@
 * {
-  font-family: ;
+  
 }
 
 html,
@@ -94,6 +94,7 @@ body {
   border-radius: 8px;
   margin: 5px;
   font-size: larger;
+  font-family: 'anton';
 
 }
 
@@ -101,20 +102,22 @@ body {
   background-color: rgba(246, 247, 183, 0.99);
  padding: 10px;
 
+font-family: 'handlee';
 }
 
 .note-title {
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
   border-bottom: 1px solid rgba(155, 155, 155, 0.466);
-  padding-bottom: 10px;
+  padding: 30px;
 }
 
 .note-textarea {
   height: 200px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-
+  padding-left: 30px;
+  font-size: larger;
 }
 
 .col-8 {
