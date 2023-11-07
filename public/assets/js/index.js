@@ -70,18 +70,22 @@ const renderActiveNote = () => {
     noteTitle.value = '';
     noteText.value = '';
   }
+  
 };
 
 const handleNoteSave = () => {
   const newNote = {
     title: noteTitle.value,
     text: noteText.value,
-    
-  }
-  saveNote(newNote).then(() => {
+    }
+  
+    saveNote(newNote).then(() => {
+    console.log("this is working");
     getAndRenderNotes();
     renderActiveNote();
-  })
+    })
+
+   location.reload();
 };
 
 // Delete the clicked note
@@ -193,3 +197,4 @@ if (window.location.pathname === '/notes') {
 }
 
 getAndRenderNotes();
+

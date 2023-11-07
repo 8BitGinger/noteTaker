@@ -63,8 +63,8 @@ module.exports = function(app) {
           dbData.splice([i], 1);
         }
       }
-      console.log("Deleted the following:");
-      console.log(dbData);
+      console.log("Deleted the Note");
+ 
       stringData = JSON.stringify(dbData);
 
       fs.writeFile('./db/db.json', stringData, (err, data) => {
