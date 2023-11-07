@@ -22,12 +22,16 @@ module.exports = function(app) {
               else if (data.length > 2) {
                   obj = JSON.parse(data);
                   obj.push(noteNew);
+                  obj.forEach((obj, index) =>{
+                    obj.id = index + 1;
+                  })
   
                   fs.writeFile('./db/db.json', JSON.stringify(obj), 'utf8', (err) => {
                       if(err) {
                           throw err;
                       }
                       console.log('Note saved.')
+                      console.log(noteNew);
                   });
              }
               else {
@@ -47,7 +51,6 @@ module.exports = function(app) {
   app.delete('/api/notes/:id', function(req, res) {
     // Gets id number of note to delete
     const deleteNote = req.params.id;
-    console.log(deleteNote);
 
     fs.readFile('./db/db.json', (err, data) => {
       if (err) throw err;
@@ -60,6 +63,7 @@ module.exports = function(app) {
           dbData.splice([i], 1);
         }
       }
+      console.log("Deleted the following:");
       console.log(dbData);
       stringData = JSON.stringify(dbData);
 
