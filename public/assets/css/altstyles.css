@@ -1,0 +1,155 @@
+* {
+  
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.save-note, .new-note, .clear-btn {
+  display: none;
+}
+
+.icons {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.note-textarea,
+.note-title {
+  color: #000000;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+.note-textarea {
+  resize: none;
+  height: calc(100% - 63px);
+  padding-top: 15px;
+}
+
+.note-title {
+  height: 50px;
+  margin-top: 13px;
+  font-size: 3rem;
+}
+
+.note-title:read-only,
+.note-textarea:read-only {
+  color: #757575;
+}
+
+.list-container .card {
+  height: calc(100vh - 70px);
+  border-bottom: none;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.list-container {
+  padding-left: 0;
+}
+
+.list-container .list-group,
+.list-container .list-group-item:first-child,
+.list-container .card {
+  border-top: none;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.list-item-title {
+  display: inline-block;
+  width: 75%;
+}
+
+.list-container i {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.list-container .list-group-item {
+  border-left: none;
+  border-right: none;
+  padding: 20px;
+  cursor: pointer;
+}
+
+
+.card {
+  background-image: url(../images/cork.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.list-group-item {
+  background-color: rgba(246, 247, 183, 0.923);
+  color: dodgerblue;
+  border-radius: 8px;
+  margin: 5px;
+  font-size: larger;
+  font-family: 'dela gothic one';
+
+}
+
+.note-textarea, .note-title {
+  background-color: rgba(246, 247, 183, 0.99);
+ padding: 10px;
+font-family: 'handlee';
+}
+
+.note-title {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom: 1px solid rgba(155, 155, 155, 0.466);
+  padding: 30px;
+}
+
+.note-textarea {
+  height: 200px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-left: 30px;
+  font-size: larger;
+}
+
+.col-8 {
+
+  border-radius: top right 25px;
+}
+
+
+.container {
+  background-color: rgba(246, 247, 183, 0.923);
+  border-radius: 25px;
+}
+
+.backer {
+  background-image: url(../images/cork.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar-brand {
+  font-size: xx-large;
+}
+
+.navbar-brand:hover {
+scale: 1.1;
+}
+
+h1 {
+  padding: 10px;
+  border-bottom: 1px solid rgba(155, 155, 155, 0.466);
+
+}
+
+.list-group-item:hover {
+  scale: 1.03;
+}
