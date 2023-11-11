@@ -81,6 +81,9 @@ body {
   cursor: pointer;
 }
 
+.navbar {
+  background: linear-gradient(to top, dodgerblue, rgba(100, 156, 215, 0.89))  !important;
+}
 
 .card {
   background-image: url(../images/cork.jpg);
